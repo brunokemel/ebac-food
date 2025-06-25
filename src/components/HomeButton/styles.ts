@@ -9,7 +9,7 @@ type Props = {
 };
 
 export const HomeButtonContainer = styled.button<Props>`
-  background-color: ${cores.laranja};
+  background-color: ${cores.bege};
   color: ${cores.fundo};
   text-align: center;
   cursor: ${(props) => (props.active ? "pointer" : "default")};

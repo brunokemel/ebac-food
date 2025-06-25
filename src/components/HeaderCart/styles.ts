@@ -47,10 +47,12 @@ export const ContainerImg = styled.div`
   z-index: 0;
 `;
 export const Italic = styled.h3`
-  font-weight: 100;
-  line-height: 37.5px;
+  font-style: italic;
+  color:  rgba(255, 255, 255, 0.7);
   font-size: 32px;
-  font-style: normal;
+  font-weight: 100;
+  margin-bottom: 8px;
+  transform: scaleY(0.9);
 `;
 export const HomeLink = styled(Link)`
   color: ${cores.laranja};
