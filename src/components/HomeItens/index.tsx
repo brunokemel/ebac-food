@@ -13,6 +13,7 @@ type Props = {
   indicador: string[];
   id: number;
   destaque: boolean;
+  onBuy?: () => void;
 };
 
 export function HomeItens({
@@ -23,6 +24,7 @@ export function HomeItens({
   descricao,
   indicador,
   destaque,
+  onBuy
 }: Props) {
   return (
     <S.HomeItensContainer>
@@ -44,7 +46,9 @@ export function HomeItens({
         <S.Descricao>
           <p>{descricao}</p>
         </S.Descricao>
-        <HomeButton to={`/restaurante/${id}`} active children="Saiba Mais" />
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+          <HomeButton to={`/restaurante/${id}`} active children="Saiba Mais" />
+        </div>
       </S.DescricaoContainer>
     </S.HomeItensContainer>
   );
