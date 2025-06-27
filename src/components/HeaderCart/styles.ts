@@ -16,8 +16,8 @@ export const Containerlogo = styled.div`
   align-items: center;
   padding: 80px 170px;
   color: ${cores.laranja};
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 12px;
+  /* font-weight: bold; */
 
   @media (max-width: 768px) {
     flex-direction: column;

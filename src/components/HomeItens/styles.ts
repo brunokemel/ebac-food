@@ -25,6 +25,13 @@ export const NameConatiner = styled.div`
 export const Avaliacao = styled.div`
   display: flex;
 
+  /* h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: ${cores.branco};
+    margin-right: 8px;
+  } */
+
   p {
     margin-right: 8px;
     font-weight: bold;

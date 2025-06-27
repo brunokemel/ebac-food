@@ -11,7 +11,9 @@ export default function Header() {
     <S.HeaderContainer style={{ backgroundImage: `url(${fundoHeader})` }}>
       <S.Logo>
         <Link to={"/"}>
-          <img src={logo} alt="Logo da Efood" />
+          {/* <S.LogoImg>
+          </S.LogoImg> */}
+          <S.LogoImg src={logo} alt="Logo da Efood" />
         </Link>
       </S.Logo>
       <S.Titulo>

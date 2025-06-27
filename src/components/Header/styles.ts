@@ -22,6 +22,17 @@ export const Logo = styled.div`
     padding-top: 40px;
   }
 `;
+
+export const LogoImg = styled.img`
+  width: 125px;
+  height: 57px;
+  object-fit: contain;
+
+  @media (max-width: 768px) {
+    width: 120px;
+    height: 120px;
+  }
+`;
 export const Titulo = styled.h2`
   text-align: center;
   color: ${cores.laranja};
