@@ -52,4 +52,4 @@ export const CloseButton = styled.button`
   &:hover {
     color: #b94a4a;
   }
-` 
+`

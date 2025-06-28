@@ -21,6 +21,10 @@ export const DescricaoContainer = styled.div`
 export const NameConatiner = styled.div`
   display: flex;
   justify-content: space-between;
+
+  h3 {
+    color: ${cores.laranja};
+  }
 `;
 export const Avaliacao = styled.div`
   display: flex;
@@ -38,6 +42,14 @@ export const Avaliacao = styled.div`
     justify-content: center;
   }
 `;
+
+// export const Titulo = styled.h3`
+//   font-size: 20px;
+//   font-weight: bold;
+//   color: ${cores.laranja}; // ou qualquer cor que quiser
+//   margin: 0;
+// `;
+
 export const Descricao = styled.div`
   padding-top: 16px;
   padding-bottom: 20px;

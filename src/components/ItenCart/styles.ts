@@ -20,7 +20,7 @@ export const ItenCartContainer = styled.div`
     font-weight: bold;
     margin-bottom: 8px;
     margin-top: 8px;
-    color: ${cores.laranja};
+    color: ${cores.branco};
   }
 
   p {
@@ -31,7 +31,7 @@ export const ItenCartContainer = styled.div`
 `;
 
 export const Button = styled.button`
-  background-color: ${cores.branco};
+  background-color: ${cores.bege};
   color: ${cores.laranja};
   /* padding: 12px 16px; */
   height: 24px;

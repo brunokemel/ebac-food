@@ -23,3 +23,9 @@ export const Carregando = styled.h4`
   font-size: 44px;
   font-weight: bold;
 `;
+export const Titulo = styled.h3`
+  font-size: 20px;
+  font-weight: bold;
+  color: ${cores.branco}; // ou qualquer cor que quiser
+  margin: 0;
+`;

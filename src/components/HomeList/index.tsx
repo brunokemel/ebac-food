@@ -42,7 +42,7 @@ export function HomeList() {
       <ProductModal isOpen={modalOpen} onClose={() => setModalOpen(false)}>
         {selectedItem && (
           <div>
-            <h2>{selectedItem.titulo}</h2>
+            <h2 style={{ color: '#fff' }}>{selectedItem.titulo}</h2>
             <img src={selectedItem.capa} alt={selectedItem.titulo} style={{width: '100%', maxWidth: 300}} />
             <p>{selectedItem.descricao}</p>
             <p><b>Avaliação:</b> {selectedItem.avaliacao}</p>
