@@ -13,6 +13,7 @@ type Props = {
   indicador: string[];
   id: number;
   destaque: boolean;
+  onBuy?: () => void;
 };
 
 export function HomeItens({
